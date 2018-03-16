@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+message CSMsgRequest {
+    string req = 1;
+}
+
+message CSMsgRespond {
+    string rsp = 1;
+}
+
